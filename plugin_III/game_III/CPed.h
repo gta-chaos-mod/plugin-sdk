@@ -14,8 +14,7 @@
 #include "CPathNode.h"
 #include "CPedStats.h"
 #include "CWeapon.h"
-
-enum eObjective;
+#include "eObjective.h"
 
 enum PLUGIN_API eMoveState {
     PEDMOVE_NONE,
