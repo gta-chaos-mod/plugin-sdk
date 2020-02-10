@@ -5,7 +5,7 @@
     Do not delete this comment block. Respect others' work!
 */
 #include "Other.h"
-#include <Windows.h>
+#include <windows.h>
 
 unsigned int plugin::FormattingUtils::currentBuf = 0;
 char plugin::FormattingUtils::buf[plugin::FormattingUtils::BUF_SIZE][4096];
