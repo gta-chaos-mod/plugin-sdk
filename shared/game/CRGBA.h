@@ -17,8 +17,9 @@ public:
     unsigned char b;
     unsigned char a;
 
-    //CRGBA(unsigned char red, unsigned char green, unsigned char blue);
+    CRGBA(unsigned char red, unsigned char green, unsigned char blue);
     CRGBA(int r, int g, int b, int a) { this->r = r; this->g = g; this->b = b; this->a = a; }
+    CRGBA(unsigned char red, unsigned char green, unsigned char blue, unsigned char alpha);
     CRGBA(unsigned int intValue);
     CRGBA(RwRGBA const &rhs);
     CRGBA();

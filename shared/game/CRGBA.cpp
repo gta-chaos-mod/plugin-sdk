@@ -7,6 +7,14 @@
 #include "CRGBA.h"
 #include "RenderWare.h"
 
+CRGBA::CRGBA(unsigned char red, unsigned char green, unsigned char blue) {
+    Set(red, green, blue, 255);
+}
+
+CRGBA::CRGBA(unsigned char red, unsigned char green, unsigned char blue, unsigned char alpha) {
+    Set(red, green, blue, alpha);
+}
+
 CRGBA::CRGBA(unsigned int intValue) {
     Set(intValue);
 }
