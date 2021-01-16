@@ -6,6 +6,8 @@
 */
 #pragma once
 
+#include <cstring>
+
 namespace StringUtils {
 
 template<size_t S>
